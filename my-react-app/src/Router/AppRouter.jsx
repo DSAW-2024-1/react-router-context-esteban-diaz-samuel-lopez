@@ -9,11 +9,11 @@ import { PrivateRoute } from "./PrivateRoute";
 export const AppRouter = () => {
   return (
     <Routes>
-      <Route path="/" element={<PrivateRoute><Home /></PrivateRoute>} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/register" element={<Register />} />
-      <Route path="/overview" element={<PrivateRoute><Overview /></PrivateRoute>} />
-      <Route path="/contact" element={<PrivateRoute><Contact /></PrivateRoute>} />
+        <Route path="/" element={<PrivateRoute><Home /></PrivateRoute>} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/overview" element={<PrivateRoute><Overview /></PrivateRoute>} />
+        <Route path="/contact" element={<PrivateRoute><Contact /></PrivateRoute>} />
     </Routes>
   );
 };

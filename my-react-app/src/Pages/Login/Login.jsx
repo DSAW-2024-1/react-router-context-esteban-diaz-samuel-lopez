@@ -18,6 +18,15 @@ export default function Login() {
     reset,
   } = useForm();
 
+  const [userData, setUserData] = useState(null);
+
+  useEffect(() => {
+    fetch("https://y-eight-sooty.vercel.app/")
+      .then((response) => response.json())
+      .then((data) => setUserData(data))
+      .catch((error) => console.error("Error fetching user data:", error));
+  }, []);
+
   const onSubmit = (data) => {
     if (data.Email === "admin@admin.com" && data.password === "admin") {
       login(); 
