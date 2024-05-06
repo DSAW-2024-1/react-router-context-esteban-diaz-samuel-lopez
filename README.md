@@ -1,5 +1,7 @@
+[![Review Assignment Due Date](https://my-react-app-three-mocha.vercel.app/login)
 # Desarrollo de Aplicaciones Web
-## NOMBRE_DE_LOS_ESTUDIANTES
+## NOMBRE_DE_LOS_ESTUDIANTES: SAMUEL LÓPEZ - ESTEBAN DÍAZ VARGAS
+## Link despliegue: https://my-react-9i8iqtg4j-esteban7108s-projects.vercel.app 
 ### Universidad de La Sabana
 #### 2024 - I
 
